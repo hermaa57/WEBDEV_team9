@@ -8,7 +8,6 @@
 		<link href="../css/style.css" rel="stylesheet">
 	</head>
 	<body>
-<<<<<<< HEAD
 		<!--Navbar container-->
 		<div class="navbar navbar-inverse navbar-static-top" id="navbar">
 			<div class="container" id="navbar">
@@ -18,11 +17,9 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-=======
-		<div class="navbar navbar-inverse navbar-static-top" id="navbar">
+				<div class="navbar navbar-inverse navbar-static-top" id="navbar">
 			<div class="container" id="navbar">
 				<a href="../php/index.php" class="navbar-brand">All Saints Lutheran Church</a>
->>>>>>> ec1ad2443bb31425e1f9e237c7984c0491c0851d
 				<div class="collapse navbar-collapse navHeaderCollapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="../php/index.php">Home</a></li>

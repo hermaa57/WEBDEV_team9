@@ -8,7 +8,6 @@
 		<link href="../css/style.css" rel="stylesheet">
 	</head>
 	<body>
-<<<<<<< HEAD
 		<!--Navbar container-->
 		<div class="navbar navbar-inverse navbar-static-top" id="navbar">
 			<div class="container" id="navbar">
@@ -18,11 +17,9 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-=======
 		<div class="navbar navbar-inverse navbar-static-top" id="navbar">
 			<div class="container" id="navbar">
 				<a href="../php/index.php" class="navbar-brand">All Saints Lutheran Church</a>
->>>>>>> ec1ad2443bb31425e1f9e237c7984c0491c0851d
 				<div class="collapse navbar-collapse navHeaderCollapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li class="active"><a  href="../php/index.php">Home</a></li>
@@ -31,15 +28,6 @@
 						<li><a href="../php/ministries.php">Ministries</a></li>
 						<li><a href="../php/donate.php">Donate</a></li>
 						<li><a href="../php/siteMap.php">Site Map</a></li>
-<<<<<<< HEAD
-=======
-						<!--<li class="dropdown">
-							<a href="" class="dropdown-toggle" data-toggle="dropdown">Page</b></a>
-								<ul class="dropdown-menu">
-									<li><a href="">Page Page?</a></li><!--Link to group page-->
-								<!--</ul>
-						</li>-->
->>>>>>> ec1ad2443bb31425e1f9e237c7984c0491c0851d
 						<?php
 							$login = false;
 							if(!$login){ 
