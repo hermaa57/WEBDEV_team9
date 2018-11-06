@@ -17,9 +17,6 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-		<div class="navbar navbar-inverse navbar-static-top" id="navbar">
-			<div class="container" id="navbar">
-				<a href="../php/index.php" class="navbar-brand">All Saints Lutheran Church</a>
 				<div class="collapse navbar-collapse navHeaderCollapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li class="active"><a  href="../php/index.php">Home</a></li>
