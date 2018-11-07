@@ -1,13 +1,17 @@
 
 #headImg {
-	width: 100%;
+	width: 50%;
 	height: 100%;
-	filter: grayscale(100%);
+	float: right;
 }
-#headImg:hover {
-	filter: grayscale(20%);
+#headTitle {
+	color: white;
+	font-family: "Courier new", Courier, monospace;
+	position: relative;
+	min-height: 150px;
 }
 .header {
 	width: 100%;
+	background-color: black;
 }
 
