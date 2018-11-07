@@ -8,6 +8,14 @@
 		<link href="../css/style.css" rel="stylesheet">
 	</head>
 	<body>
+		<!--Header container-->
+		<div class="header">
+			<div class="row" id="row1">
+				<div class="col-md-12">
+					<img class="img-responsive" src="../images/header.jpg" id="headImg">
+				</div>
+			</div>
+		</div>
 		<!--Navbar container-->
 		<div class="navbar navbar-inverse navbar-static-top" id="navbar">
 			<div class="container" id="navbar">

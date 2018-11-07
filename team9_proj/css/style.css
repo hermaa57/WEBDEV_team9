@@ -1,10 +1,11 @@
-.wide {
+#headImg {
 	width: 100%;
 	height: 100%;
-	background-image: url("../images/header.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
+	filter: grayscale(100%);
 }
-.wide img {
+#headImg:hover {
+	filter: grayscale(20%);
+}
+.header {
 	width: 100%;
 }
