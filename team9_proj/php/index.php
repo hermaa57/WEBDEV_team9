@@ -9,11 +9,13 @@
 	</head>
 	<body>
 		<!--Header container-->
-		<div class="header">
+		<div class="header" href="../php/index.php">
 			<div class="row" id="row1">
 				<div class="col-md-12">
 					<img class="img-responsive" src="../images/cross_header.jpg" id="headImg">
-					<h1 id="headTitle">All Saints Lutheran Church</h1>
+					<div class="bottomText">
+						<h1 id="headTitle">All Saints Lutheran Church</h1>
+					</div>
 				</div>
 			</div>
 		</div>

@@ -9,15 +9,17 @@ html, body { margin: 0; padding: 0; }
 #headTitle {
 	color: white;
 	font-family: "Courier new", Courier, monospace;
-	position: relative;
-	min-height: 150px;
+	height: 100px;
 }
 .header {
 	width: 100%;
 	background-color: black;
+	display: flex;
+	flex-direction: column;
 }
-
-
+#bottomText {
+	margin-top: auto;
+}
 .div-login {
  margin-right: auto; margin-left: auto; width: 800px; 
 }
