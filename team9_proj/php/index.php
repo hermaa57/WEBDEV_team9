@@ -8,8 +8,6 @@
 		<link href="../css/style.css" rel="stylesheet">
 	</head>
 	<body>
-<<<<<<< HEAD
-=======
 		<!--Header container-->
 		<div class="header">
 			<div class="row" id="row1">
@@ -18,7 +16,6 @@
 				</div>
 			</div>
 		</div>
->>>>>>> 3a8166e1171af42f940328f911d504265c739667
 		<!--Navbar container-->
 		<div class="navbar navbar-inverse navbar-static-top" id="navbar">
 			<div class="container" id="navbar">
