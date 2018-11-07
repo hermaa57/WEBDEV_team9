@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+=======
+#headImg {
+	width: 100%;
+	height: 100%;
+	filter: grayscale(100%);
+}
+#headImg:hover {
+	filter: grayscale(20%);
+}
+.header {
+	width: 100%;
+}
+>>>>>>> 3a8166e1171af42f940328f911d504265c739667
