@@ -1,42 +1,32 @@
 
 .div-login {
-	position: absolute;
-	top: 80px;
-	right: 1100px;
+
 }
 
 .div-createAcc {
-	position: absolute;
-	top: 80px;
-	right: 700px;
+	float:right;
 }
 
 .login-intro-div {
-	position: absolute;
-	top:400px;
-	right: 1000px;
+	float: left;
 }
 
-h3 {
+.header-3 {
 	text-align:center;
 }
 
-p {
+.p-intro {
 	text-align:center;
 }
 
 .login-intro-div2 {
-	position: absolute;
-	top:180px;
-	right: 300px;
+	float: right;
 }
 
-li {
+.li-accBen {
 	text-align:center;
 }
 
 .church-img-div {
-	position: absolute;
-	top:350px;
-	right: 250px;
-
+	float: right;
+}
