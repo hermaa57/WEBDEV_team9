@@ -1,4 +1,6 @@
 
+html, body { margin: 0; padding: 0; }
+
 #headImg {
 	width: 50%;
 	height: 100%;
@@ -15,3 +17,35 @@
 	background-color: black;
 }
 
+
+.div-login {
+ margin-right: auto; margin-left: auto; width: 800px; 
+}
+
+.div-createAcc {
+ margin-right: auto; margin-left: auto; width: 800px; 
+}
+
+.login-intro-div {
+ margin-right: auto; margin-left: auto; width: 800px; 
+}
+
+.header-3 {
+	text-align:center;
+}
+
+.p-intro {
+	text-align:center;
+}
+
+.login-intro-div2 {
+ margin-right: auto; margin-left: auto; width: 800px; 
+}
+
+.li-accBen {
+	text-align:center;
+}
+
+.church-img-div {
+ margin-right: auto; margin-left: auto; width: 800px; 
+}

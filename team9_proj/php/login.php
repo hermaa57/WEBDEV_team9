@@ -105,19 +105,19 @@
 </form>
        
        <div class ="login-intro-div">
-       <h3>Hello there!</h3>
-       <p> If you already have an account with us, please
+       <h3 class="header-3">Hello there!</h3>
+       <p class="p-intro"> If you already have an account with us, please
        login,<br> otherwise create a new account with us for free.</p>
        </div> 
     
 		<div class ="login-intro-div2">
-       <h3>Benefits of having an Account:</h3>
+       <h3 class ="header-3" >Benefits of having an Account:</h3>
        <ul>
-       	<li>Receive our monthly Newsletters!</li>
-       	<li>Message the Pastor directly!</li>
-       	<li>Customize your profile!</li>
-       	<li>Electronically Donate to the church!</li>
-       	<li>Keep up with all things All Saints!</li>
+       	<li class = "li-accBen">Receive our monthly Newsletters!</li>
+       	<li class = "li-accBen">Message the Pastor directly!</li>
+       	<li class = "li-accBen">Customize your profile!</li>
+       	<li class = "li-accBen">Electronically Donate to the church!</li>
+       	<li class = "li-accBen">Keep up with all things All Saints!</li>
        </ul>
        </div> 
 		
