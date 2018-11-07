@@ -10,8 +10,8 @@
 	<body>
 		<!--Header container-->
 		<div class="page-header">
-			<h1>All Saints Lutheran Church</h1>
-			<img src="../images/header.jpg">
+			<h1 id="headTitle">All Saints Lutheran Church</h1>
+			<background img id="headImg" src="../images/header.jpg">
 		<!--Navbar container-->
 		<div class="navbar navbar-inverse navbar-static-top" id="navbar">
 			<div class="container" id="navbar">
