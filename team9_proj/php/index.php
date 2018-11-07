@@ -10,7 +10,9 @@
 	<body>
 		<!--Header container-->
 		<div class="page-header">
-			<h1 id="headTitle">All Saints Lutheran Church</h1>
+			<div class="wide"
+				<h1 id="headTitle">All Saints Lutheran Church</h1>
+			</div>
 		</div>
 		<!--Navbar container-->
 		<div class="navbar navbar-inverse navbar-static-top" id="navbar">
