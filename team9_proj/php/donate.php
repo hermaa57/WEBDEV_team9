@@ -54,7 +54,7 @@
 		</div>
 		
 		<h3 class = "header-3">Thank you for Considering a Donation!</h3>
-		<div class = "church-financials-div"> 
+		<div class = "container church-financials-div"> 
 			<p class = "p-intro"><img src = "../images/churchFinancial.png"></p>
 		</div>
 		<p class = "p-intro">All Saints Lutheran Church needs your help to pay off our current building loan now more than ever, please consider donating today.</p>
