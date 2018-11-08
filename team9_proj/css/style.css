@@ -9,15 +9,39 @@ html, body { margin: 0; padding: 0; }
 #headTitle {
 	color: white;
 	font-family: "Courier new", Courier, monospace;
-	position: relative;
-	min-height: 150px;
+	vertical-align: bottom;
+	padding-top: 9%;
 }
 .header {
 	width: 100%;
 	background-color: black;
+	display: flex;
+	flex-direction: column;
 }
-
-
+.footer {
+	background-color: rgba(75, 75, 75, .2);
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.list-inline-item {
+	filter: grayscale(100%);
+}
+.list-inline-item:hover {
+	filter: none;
+}
+#socialImg {
+	width: 75px;
+	height: auto;
+}
+#socialImgSmall {
+	width: 100px;
+	height: auto;
+}
+#socRow {
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+}
 .div-login {
  margin-right: auto; margin-left: auto; width: 800px; 
 }
