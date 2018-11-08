@@ -54,7 +54,7 @@
 		</div>
 		
 		<form action="someLoginCheck.js">
-    <div class="div-login">
+    <div class ="container div-login">
 		<h1>Login:</h1>
 		<br>
 		<br>
@@ -72,7 +72,7 @@
 	
 	
 	<form action="createAccount.js">
-    <div class="div-createAcc">
+    <div class="container div-createAcc">
 		<h1>Create Account:</h1>
 		<br>
 		<br>
@@ -104,13 +104,13 @@
 		</div>
 </form>
        
-       <div class ="login-intro-div">
+       <div class ="container login-intro-div">
        <h3 class="header-3">Hello there!</h3>
        <p class="p-intro"> If you already have an account with us, please
        login,<br> otherwise create a new account with us for free.</p>
        </div> 
     
-		<div class ="login-intro-div2">
+		<div class ="container login-intro-div2">
        <h3 class ="header-3" >Benefits of having an Account:</h3>
        <ul>
        	<li class = "li-accBen">Receive our monthly Newsletters!</li>
