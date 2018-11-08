@@ -9,6 +9,8 @@ html, body { margin: 0; padding: 0; }
 #headTitle {
 	color: white;
 	font-family: "Courier new", Courier, monospace;
+	vertical-align: bottom;
+	padding-top: 9%;
 }
 .header {
 	width: 100%;
