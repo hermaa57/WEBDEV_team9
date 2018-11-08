@@ -20,7 +20,6 @@
 		<!--Navbar container-->
 		<div class="navbar navbar-inverse navbar-static-top" id="navbar">
 			<div class="container" id="navbar">
-				<a href="../php/index.php" class="navbar-brand">All Saints Lutheran Church</a>
 				<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>

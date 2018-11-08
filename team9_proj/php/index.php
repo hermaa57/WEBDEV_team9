@@ -13,16 +13,13 @@
 			<div class="row" id="row1">
 				<div class="col-md-12">
 					<img class="img-responsive" src="../images/cross_header.jpg" id="headImg">
-					<div class="bottomText">
-						<h1 id="headTitle">All Saints Lutheran Church</h1>
-					</div>
+					<h1 id="headTitle">All Saints Lutheran Church</h1>
 				</div>
 			</div>
 		</div>
 		<!--Navbar container-->
 		<div class="navbar navbar-inverse navbar-static-top" id="navbar">
 			<div class="container" id="navbar">
-				<a href="../php/index.php" class="navbar-brand">All Saints Lutheran Church</a>
 				<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
