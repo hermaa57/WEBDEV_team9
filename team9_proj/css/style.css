@@ -38,7 +38,7 @@ html, body { margin: 0; padding: 0; }
 	width: 100px;
 	height: auto;
 }
-#socRow {
+.socRow {
 	padding-top: 2.5%;
 	padding-bottom: 2.5%;
 }
