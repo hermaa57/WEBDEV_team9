@@ -52,12 +52,35 @@
 				</div>	
 			</div>
 		</div>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-xs-12 about">
+					<p>A vibrant church centered in Jesus Christ, gathered to worship and sent to serve. 
+					Our community grows out of grace, God's unearned love for everyone, and vocation, living into God's call for each of our lives.<br><br> 
+
+					Come as you are! Most of us dress casually and our worship is laid back too. 
+					Expect good music, preaching that will challenge you, and people to connect with.<br><br>
+
+					Find out more about All Saints with these links to our Newsletter and Calendar:<br><br></p>
+					
+					<a href="../pdf/nov_2018_newsletter.pdf">Monthly Newsletter</a><br><br>
+					<a href="../pdf/nov_2018_calendar.pdf">Monthly Calendar</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					<img id="dates" src="../images/history.jpg" alt="Important ASLC dates">
+				</div>
+			</div>
+		</div>
 	
 		<!--Footer container-->
 		<div class="footer navbar-static-bottom">
 			<div class="container">
 				<div class="row" id="socRow">
 					<div class="col-md-12 col-xs-12">
+						<p>ANCHORED IN GOD'S WORD, LOVE AND GRACE, WE ARE DISCIPLES CALLED TO SHARE THE GOOD NEWS!</p><br><br>
 						<ul class="list-unstyled list-inline">
 							<li class="list-inline-item">
 								<a href="https://www.facebook.com/AllSaintsOshkosh"><img id="socialImg" alt="facebook" src="../images/facebook.png"></a>

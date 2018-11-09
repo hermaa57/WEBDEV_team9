@@ -58,6 +58,7 @@
 			<div class="container">
 				<div class="row" id="socRow">
 					<div class="col-md-12 col-xs-12">
+						<p>ANCHORED IN GOD'S WORD, LOVE AND GRACE, WE ARE DISCIPLES CALLED TO SHARE THE GOOD NEWS!</p><br><br>
 						<ul class="list-unstyled list-inline">
 							<li class="list-inline-item">
 								<a href="https://www.facebook.com/AllSaintsOshkosh"><img id="socialImg" alt="facebook" src="../images/facebook.png"></a>

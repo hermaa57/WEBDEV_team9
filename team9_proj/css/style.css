@@ -67,7 +67,7 @@ html, body { margin: 0; padding: 0; }
 }
 
 .li-accBen {
-	text-align:center;
+	text-align: center;
 }
 
 .church-img-div {
@@ -75,5 +75,13 @@ html, body { margin: 0; padding: 0; }
 }
 #pastorPic {
 	width: 75%;
+	height: auto;
+}
+.about {
+	text-align: center;
+	background-color: red;
+}
+#dates {
+	width: 50%;
 	height: auto;
 }
