@@ -73,3 +73,7 @@ html, body { margin: 0; padding: 0; }
 .church-img-div {
  margin-right: auto; margin-left: auto; width: 800px; 
 }
+#pastorPic {
+	width: 75%;
+	height: auto;
+}
