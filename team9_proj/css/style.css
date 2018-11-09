@@ -49,15 +49,27 @@ html, body {
 	padding-bottom: 2.5%;
 }
 .div-login {
- margin-right: auto; margin-left: auto; width: 800px; 
+ position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
 }
 
 .div-createAcc {
- margin-right: auto; margin-left: auto; width: 800px; 
+position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
 }
 
 .login-intro-div {
- margin-right: auto; margin-left: auto; width: 800px; 
+position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
 }
 
 .header-3 {
@@ -69,7 +81,11 @@ html, body {
 }
 
 .login-intro-div2 {
- margin-right: auto; margin-left: auto; width: 800px; 
+position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
 }
 
 .li-accBen {
@@ -77,5 +93,16 @@ html, body {
 }
 
 .church-img-div {
- margin-right: auto; margin-left: auto; width: 800px; 
+position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+.div-directions {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }

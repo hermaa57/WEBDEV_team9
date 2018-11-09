@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<title>All Saints Lutheran Church</title>

@@ -7,6 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="../css/bootstrap.min.css" rel="stylesheet">
 		<link href="../css/style.css" rel="stylesheet">
+		<link href="../css/login.css" rel="stylesheet">
 	</head>
 	<body>
 		<!--Header container-->
@@ -52,6 +53,12 @@
 				</div>	
 			</div>
 		</div>
+		
+		<div class ="container login-intro-div">
+       <h3 class="header-3">Hello there!</h3>
+       <p class="p-intro"> If you already have an account with us, please
+       login,<br> otherwise create a new account with us for free.</p>
+       </div> 
 		
 		<form action="someLoginCheck.js">
     <div class ="container div-login">
@@ -104,11 +111,7 @@
 		</div>
 </form>
        
-       <div class ="container login-intro-div">
-       <h3 class="header-3">Hello there!</h3>
-       <p class="p-intro"> If you already have an account with us, please
-       login,<br> otherwise create a new account with us for free.</p>
-       </div> 
+       
     
 		<div class ="container login-intro-div2">
        <h3 class ="header-3" >Benefits of having an Account:</h3>
