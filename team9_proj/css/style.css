@@ -1,5 +1,8 @@
 
-html, body { margin: 0; padding: 0; }
+html, body { 
+	margin: 0; 
+	padding: 0; 
+}
 
 #headImg {
 	width: 50%;
@@ -22,6 +25,9 @@ html, body { margin: 0; padding: 0; }
 	background-color: rgba(75, 75, 75, .2);
 	width: 100%;
 	height: auto;
+	text-align: center;
+}
+#aboutRow {
 	text-align: center;
 }
 .list-inline-item {
@@ -72,16 +78,4 @@ html, body { margin: 0; padding: 0; }
 
 .church-img-div {
  margin-right: auto; margin-left: auto; width: 800px; 
-}
-#pastorPic {
-	width: 75%;
-	height: auto;
-}
-.about {
-	text-align: center;
-	background-color: red;
-}
-#dates {
-	width: 50%;
-	height: auto;
 }

@@ -19,8 +19,8 @@
 			</div>
 		</div>
 		<!--Navbar container-->
-		<div class="navbar navbar-inverse navbar-static-top" id="navbar">
-			<div class="container" id="navbar">
+		<div class="navbar navbar-inverse navbar-static-top">
+			<div class="container">
 				<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
@@ -53,9 +53,9 @@
 			</div>
 		</div>
 		
-		<div class="container">
+		<div class="container" id="aboutRow">
 			<div class="row">
-				<div class="col-md-12 col-xs-12 about">
+				<div class="col-md-12 col-xs-12">
 					<p>A vibrant church centered in Jesus Christ, gathered to worship and sent to serve. 
 					Our community grows out of grace, God's unearned love for everyone, and vocation, living into God's call for each of our lives.<br><br> 
 
