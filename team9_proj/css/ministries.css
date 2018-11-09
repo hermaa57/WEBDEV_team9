@@ -1,0 +1,12 @@
+#myCarousel {
+	width: 75%;
+	height: auto;
+	display: inline-block;
+}
+#carContain {
+	text-align: center;
+}
+#carRow {
+	border-radius: 10px;
+	background-color: gray;
+}
