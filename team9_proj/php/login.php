@@ -53,7 +53,7 @@
 				</div>	
 			</div>
 		</div>
-		
+		<div class="container">
 		<div class ="container login-intro-div">
        <h3 class="header-3">Hello there!</h3>
        <p class="p-intro"> If you already have an account with us, please
@@ -127,7 +127,7 @@
 		<div class="church-img-div">
 			<img src = "../images/FollowMe.jpg" height="200" width = "400">		
 		</div>
-			
+		</div>
 		<!--Footer container-->
 		<div class="footer navbar-static-bottom">
 			<div class="container">
