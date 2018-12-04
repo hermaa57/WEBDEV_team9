@@ -1,12 +1,12 @@
-.div-login {
+.container div-login {
     text-align:center;
 }
 
-.div-createAcc {
+.container div-createAcc {
     text-align:center;
 }
 
-.login-intro-div {
+.container login-intro-div {
     text-align:center;
 }
 
@@ -18,7 +18,7 @@
 	text-align:center;
 }
 
-.login-intro-div2 {
+.container login-intro-div2 {
     text-align:center;
 }
 

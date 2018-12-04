@@ -53,7 +53,7 @@
 				</div>	
 			</div>
 		</div>
-		
+		<?php $success = ""?>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 col-xs-12">
@@ -104,7 +104,19 @@
 					</div>
 				</div>
 			</div>
+		<div id = "center">
+			<h3>Sign up for our Newsletter!</h3>
+			<form method="post" action="newsletter.php">
+			<input type="hidden" name = "userEmailSubmit" value="true"
+				<label>Email Address: <input type="text" name="userEmail" value=""></label>
+				<br>
+				<input type="submit" value="Sign Up">
+			</form>
+			<p><?php $success ?></p>
 		</div>
+		</div>
+		
+		
 		<!--Footer container-->
 		<div class="footer navbar-static-bottom">
 			<div class="container">
