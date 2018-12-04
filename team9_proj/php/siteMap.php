@@ -61,6 +61,7 @@
 			<li><a href="../php/donate.php">Donate</a></li>
 			<li><a href="../php/login.php">Login/Signup</a></li>
 			<li><a href="../php/profile.php">Your Profile</a></li>
+			<li><a href="../php/admin.php">Administrator Panel</a></li>
 		</ul>
 	
 		<!--Footer container-->
