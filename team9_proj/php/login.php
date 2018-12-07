@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	require_once("initialize.php");
+	require_once('initialize.php');
 ?>
 
 <!DOCTYPE html>
@@ -19,8 +19,7 @@
 	<body>
 		<?php 
 			include_once 'header.php';
-			$login = false;
-			if(!$login)
+			if($login == null)
 				include_once 'navBarLogin.php'; 
 			else
 				include_once 'navBarLogout.php';
@@ -44,7 +43,7 @@
 						</div>
 						<div class="row">
 							<div class="col-md-4 col-xs-4">
-								<form action="someLoginCheck.js">
+								<form method="post" action="loginDB.php">
 									<input type="text" class="form-control" placeholder="Email: " name="userEmail" value=""><br><br>
 									<input type="password" class="form-control" placeholder="Password: " name="userPassword" value=""><br><br>
 									<input type="submit" class="btn btn-primary center-block" value="Login">
@@ -60,7 +59,7 @@
 								<h1>Create Account:</h1><br>
 							</div>
 						</div>
-						<form action="createAccount.js">
+						<form method="post" action="createAccountDB.php">
 							<div class="row">
 								<div class="col-md-3 col-xs-3">
 									<input type="text" class="form-control" placeholder="Email:" name="userEmailCreate" value=""><br><br>

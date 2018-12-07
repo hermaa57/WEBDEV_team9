@@ -1,6 +1,6 @@
 <?php
 			if(isset($_POST['userEmailSubmit'])) {
-				include('mysql-connect.php');
+				include('initialize.php');
 				$email = $_POST['userEmail'];
 				
 				$sql = "INSERT INTO `Newsletter`(`Email`) VALUES ('$email')";

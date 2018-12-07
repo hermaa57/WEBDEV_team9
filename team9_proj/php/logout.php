@@ -1,5 +1,7 @@
 <?php 
 	session_start();
+	require_once('initialize.php');
+	$login = false;
 	
 	if(isset($_SESSION['username']))
 	{ 

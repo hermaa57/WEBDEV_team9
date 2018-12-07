@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	require_once("initialize.php");
+	require_once('initialize.php');
 ?>
 
 <!DOCTYPE html>
@@ -18,8 +18,7 @@
 	<body>
 		<?php 
 			include_once 'header.php';
-			$login = false;
-			if(!$login)
+			if($login == null)
 				include_once 'navBarLogin.php'; 
 			else
 				include_once 'navBarLogout.php';
