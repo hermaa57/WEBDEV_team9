@@ -12,15 +12,10 @@
 		try
 		{
 			$checkEmail = GetUserByEmail($EM);
-			$checkUsername = GetUserByUsername($UN);
 			
-			if($checkEmail['Email'] == $_POST['email'])
+			if($checkEmail['Email'] == $EM)
 			{
-				echo '<div class="alert alert-danger" role="alert">The email already exists. Please choose a different email.</div>';
-			}
-			else if($checkUsername['Name'] == $_POST['username'])
-			{
-				echo '<div class="alert alert-danger" role="alert">The user name already exists. Please choose a different username.</div>';
+				echo '<div class="alert alert-danger" role="alert">That email already exists. Please choose a different email.</div>';
 			}
 			else
 			{

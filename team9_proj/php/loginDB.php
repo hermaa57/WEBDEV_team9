@@ -19,12 +19,12 @@
 				}
 				else
 				{
-					echo '<div class="alert alert-danger" role="alert"><p>Username or Password is incorrect.</p></div>' ;
+					echo '<div class="alert alert-danger" role="alert">Username or Password is incorrect.</div>' ;
 				}
 			}
 			else
 			{
-				echo '<div class="alert alert-danger" role="alert"><p>The username or password is incorrect.</p></div>';
+				echo '<div class="alert alert-danger" role="alert">The username or password is incorrect.</div>';
 			}
 		}
 		catch(PDOException $e)
