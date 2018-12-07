@@ -5,7 +5,7 @@
 				
 				$sql = "INSERT INTO `Newsletter`(`Email`) VALUES ('$email')";
 				
-				if(!mysqli_query($dbcon, $sql)){
+				if(!mysqli_query($db, $sql)){
 					die('error');
 				}
 				

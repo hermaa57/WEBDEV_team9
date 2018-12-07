@@ -4,10 +4,10 @@
         global $db;
         try
 		{
-			//INSERT INTO User VALUES (email, pwd, name, dob)
-            $sql = "CALL CreateUser(?,?,?,?)";
+			//INSERT INTO Accounts VALUES (email, pwd, name, dob)
+            $sql = "CALL CreateUser(?,?,?,?,?)";
             $q = $db->prepare($sql);
-            $q->execute([$email, $password, $username, $dob]);
+            $q->execute([$email, $password, $username, $dob, 1]);
             return true;
         } 
 		catch (PDOException $e)

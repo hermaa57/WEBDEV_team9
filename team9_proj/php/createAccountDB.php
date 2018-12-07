@@ -14,21 +14,21 @@
 			$checkEmail = GetUserByEmail($EM);
 			$checkUsername = GetUserByUsername($UN);
 			
-			if(count($checkEmail) > 0)
+			if($checkEmail['Email'] == $_POST['email'])
 			{
-				echo '<div class="alert alert-danger" role="alert"><p>The email already exists. Please choose a different email.<p></div>';
+				echo '<div class="alert alert-danger" role="alert">The email already exists. Please choose a different email.</div>';
 			}
-			else if(count($checkUsername) > 0)
+			else if($checkUsername['Name'] == $_POST['username'])
 			{
-				echo '<div class="alert alert-danger" role="alert"><p>The user name already exists. Please choose a different username.<p></div>';
+				echo '<div class="alert alert-danger" role="alert">The user name already exists. Please choose a different username.</div>';
 			}
 			else
 			{
 				$createUser = CreateUser($EM, $PWD, $UN, $DOB);
-				if($createUser)
+				if($createUser == true)
 				{
-					$_SESSION['username'] = $UN ;
-					header("Location: index.php");
+					$_SESSION['email'] = $EM ;
+					header("Location:" . "index.php");
 				}
 				else
 				{
