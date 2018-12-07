@@ -1,11 +1,11 @@
 <?php
 			if(isset($_POST['userEmailSubmit'])) {
-				include('initialize.php');
+				include('mysql-connect.php');
 				$email = $_POST['userEmail'];
 				
 				$sql = "INSERT INTO `Newsletter`(`Email`) VALUES ('$email')";
 				
-				if(!mysqli_query($db, $sql)){
+				if(!mysqli_query($dbcon, $sql)){
 					die('error');
 				}
 				

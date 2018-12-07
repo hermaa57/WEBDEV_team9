@@ -1,0 +1,30 @@
+h2 {
+	text-align:center;
+}
+
+h3 {
+	text-align:center;
+}
+
+p { 
+	text-align:center;
+}
+
+select {
+	text-align:center;
+}
+
+.center {
+	display: block;
+    margin: 0 auto;
+}
+
+option {
+	text-align:center;
+}
+
+.admin1 {
+	text-align: center;
+    width: auto;
+    height: 50px;
+}
