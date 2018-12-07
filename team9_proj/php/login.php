@@ -54,38 +54,30 @@
 			</div>
 		</div>
 		<div class="container">
-		<div class ="container login-intro-div">
-       <h3 class="header-3">Hello there!</h3>
-       <p class="p-intro"> If you already have an account with us, please
-       login,<br> otherwise create a new account with us for free.</p>
-       </div> 
+			<div class ="container login-intro-div">
+				<h3 class="header-3">Hello there!</h3>
+				<p class="p-intro"> If you already have an account with us, please
+				login,<br> otherwise create a new account with us for free.</p>
+			</div> 
 		
-		<form action="someLoginCheck.js">
-    <div class ="container div-login">
-		<h1>Login:</h1>
-		<br>
-		<br>
-        Email:<br>
-        <input type="text" name="userEmail" value="">
-        <br>
-        <br>
-        Password:<br>
-        <input type="password" name="userPassword" value="">
-        <br>
-        <br>
-        <input type="submit" value="Login">
-	</div>
-	</form>
+			<form action="someLoginCheck.js">
+				<div class ="container div-login">
+					<h1>Login:</h1><br><br>
+					Email:<br>
+					<input type="text" name="userEmail" value=""><br><br>
+					Password:<br>
+					<input type="password" name="userPassword" value=""><br><br>
+					<input type="submit" value="Login">
+				</div>
+			</form>
 	
 	
-	<form action="createAccount.js">
-    <div class="container div-createAcc">
-		<h1>Create Account:</h1>
-		<br>
-		<br>
-        Email:<br>
-        <input type="text" name="userEmailCreate" value="">
-        <br>
+			<form action="createAccount.js">
+				<div class="container div-createAcc">
+					<h1>Create Account:</h1><br><br>
+					Email:<br>
+					<input type="text" name="userEmailCreate" value="">
+					<br>
         <br>
         Password:<br>
         <input type="password" name="userPasswordCreate" value="">
