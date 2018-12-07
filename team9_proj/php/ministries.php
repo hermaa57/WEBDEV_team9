@@ -85,6 +85,19 @@
 				</form>
 				<p><?php $success ?></p>
 			</div>
+			
+			<div id = "center">
+			<h3>Suggestion Box</h3>
+			<p> Please upload your suggestions to improve the Church here!</p>
+			<form action="upload.php" method="post" enctype="multipart/form-data">
+				Select file to upload:
+				<input type="file" name="file" id="file">
+				<input type="submit" value="Upload" name="submit">
+			</form>
+
+			<p>(Your suggestions will remain confidential between you and Church Staff)</p>
+		</div>
+		
 		</div>
 		
 		<?php include_once 'footer.php'; ?>
