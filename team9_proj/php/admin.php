@@ -26,39 +26,42 @@
 	
 		<<h2>Administrator Panel</h2>
 	
-	<h3>List of Church Members</h3>
-	<p><strong> Email	Name	DOB		ID		Permissions</strong></p>
-	<?php
-	include('mysql-connect.php');
-	$sql = "SELECT Email, Name, DOB, ID, Permissions FROM Accounts";
-	$result = mysqli_query($dbcon,$sql);
-	?> <form method="post" action="deleteUser.php"> <?php
-	echo "<select name='account'>";
-	while ($row = mysqli_fetch_array($result)) {
-		echo "<option name = '" . $row['Email'] . "' value='" . $row['Email'] ."'>" . $row['Email'] . ", " . $row['Name'] . ", " . $row['DOB'] . ", " . $row['ID'] . ", " . $row['Permissions'] ."</option>";
-	}
-	echo "</select>";
-	?>
+		<h3>List of Church Members</h3>
+		<p><strong> Email	Name	DOB		ID		Permissions</strong></p>
+		<?php
+			include('mysql-connect.php');
+			$sql = "SELECT Email, Name, DOB, ID, Permissions FROM Accounts";
+			$result = mysqli_query($dbcon,$sql);
+		?> 
+		<form method="post" action="deleteUser.php"> 
+			<?php
+				echo "<select name='account'>";
+				while ($row = mysqli_fetch_array($result)) {
+					echo "<option name = '" . $row['Email'] . "' value='" . $row['Email'] ."'>" . $row['Email'] . ", " . $row['Name'] . 
+					", " . $row['DOB'] . ", " . $row['ID'] . ", " . $row['Permissions'] ."</option>";
+				}
+				echo "</select>";
+			?>
 			<input type="submit" name="submit" value="Delete User">
-	</form>
-	
-	<h3>Suggestion Box</h3>
-	<?php
-	$count = 1;
-	$sql = "SELECT File FROM Suggestions";
-    $result = mysqli_query($dbcon,$sql) or die('Error, query failed');
+		</form>
+		
+		<h3>Suggestion Box</h3>
+			<?php
+				$count = 1;
+				$sql = "SELECT File FROM Suggestions";
+				$result = mysqli_query($dbcon,$sql) or die('Error, query failed');
 
-    if(mysqli_num_rows($result)==0){
-        echo "Database is empty <br>";
-    }
-    else{
-        while(list($File) = mysqli_fetch_array($result)){
-			$name = "Suggestion " . $count;
-            echo "<a href="$File">$name</a><br>";
-			$count = $count + 1;
-        }
-    }
-	?>
+				if(mysqli_num_rows($result)==0){
+					echo "Database is empty <br>";
+				}
+				else{
+					while(list($File) = mysqli_fetch_array($result)){
+						$name = "Suggestion " . $count;
+						echo "<a href="$File">$name</a><br>";
+						$count = $count + 1;
+					}
+				}
+			?>
 		<?php include_once 'footer.php'; ?>
 	</body>
 </html>

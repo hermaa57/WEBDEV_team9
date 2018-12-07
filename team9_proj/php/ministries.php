@@ -79,7 +79,7 @@
 			<div id = "center">
 				<h3>Sign up for our Newsletter!</h3>
 				<form method="post" action="newsletter.php">
-				<input type="hidden" name = "userEmailSubmit" value="true">
+					<input type="hidden" name = "userEmailSubmit" value="true">
 					<label>Email Address: <input type="text" name="userEmail" value=""></label><br>
 					<input type="submit" value="Sign Up">
 				</form>
@@ -87,16 +87,16 @@
 			</div>
 			
 			<div id = "center">
-			<h3>Suggestion Box</h3>
-			<p> Please upload your suggestions to improve the Church here!</p>
-			<form action="upload.php" method="post" enctype="multipart/form-data">
-				Select file to upload:
-				<input type="file" name="file" id="file">
-				<input type="submit" value="Upload" name="submit">
-			</form>
+				<h3>Suggestion Box</h3>
+				<p> Please upload your suggestions to improve the Church here!</p>
+				<form action="upload.php" method="post" enctype="multipart/form-data">
+					Select file to upload:
+					<input type="file" name="file" id="file">
+					<input type="submit" value="Upload" name="submit">
+				</form>
 
-			<p>(Your suggestions will remain confidential between you and Church Staff)</p>
-		</div>
+				<p>(Your suggestions will remain confidential between you and Church Staff)</p>
+			</div>
 		
 		</div>
 		
