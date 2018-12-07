@@ -1,3 +1,8 @@
+<?php
+	session_start();
+	require_once("initialize.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -26,53 +31,76 @@
 				<div class="col-md-12 col-xs-12">
 					<h3 class="header-3">Hello there!</h3>
 					<p class="p-intro"> If you already have an account with us, please
-					login,<br> otherwise create a new account with us for free.</p>
+					login, otherwise create a new account with us for free.</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-6 col-xs-6">
-					<form action="someLoginCheck.js">
-						<h1>Login:</h1><br><br>
-						Email:<br>
-						<input type="text" name="userEmail" value=""><br><br>
-						Password:<br>
-						<input type="password" name="userPassword" value=""><br><br>
-						<input type="submit" value="Login">
-					</form>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6 col-xs-6">
+								<h1>Login:</h1><br>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4 col-xs-4">
+								<form action="someLoginCheck.js">
+									<input type="text" class="form-control" placeholder="Email: " name="userEmail" value=""><br><br>
+									<input type="password" class="form-control" placeholder="Password: " name="userPassword" value=""><br><br>
+									<input type="submit" class="btn btn-primary center-block" value="Login">
+								</form>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="col-md-6 col-xs-6">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-6 col-xs-6">
-								<h1>Create Account:</h1><br><br>
+								<h1>Create Account:</h1><br>
 							</div>
 						</div>
-						<div class="row">
-							<div class="col-md-3 col-xs-3">
-								<form action="createAccount.js">
-									Email:<br>
-									<input type="text" name="userEmailCreate" value=""><br><br>
-									Password:<br>
-									<input type="password" name="userPasswordCreate" value=""><br><br>
+						<form action="createAccount.js">
+							<div class="row">
+								<div class="col-md-3 col-xs-3">
+									<input type="text" class="form-control" placeholder="Email:" name="userEmailCreate" value=""><br><br>
+								</div>
+								<div class="col-md-3 col-xs-3">
+									<input type="password" class="form-control" placeholder="Password:" name="userPasswordCreate" value=""><br><br>
+								</div>
 							</div>
-							<div class="col-md-3 col-xs-3">
-									Name:<br>
-									<input type="text" name="userName" value=""><br><br>
-									Date of Birth:<br>
-									<input type="text" name="userDOB" value=""><br><br>
-									Sex:<br>
-									<div>
-										<input type="radio" name="userSex" id="male" value=""> 
-										<label for="male">Male</label>
+							<div class="row">
+								<div class="col-md-3 col-xs-3">
+										<input type="text" class="form-control" placeholder="Name: " name="userName" value=""><br><br>
+								</div>
+								<div class="col-md-3 col-xs-3">
+										<input type="text" class="form-control" placeholder="Date of Birth: " name="userDOB" value=""><br><br>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-3 col-xs-3">
+									<div class="input-group">
+										<span class="input-group-addon">
+											<input type="radio" name="userSex" id="male" value=""> 
+										</span>
+										<label class="form-control" for="male">Male</label>
 									</div>
-									<div>
-										<input type="radio" name="userSex" id="female" value=""> 
-										<label for="female">Female</label>
+								</div>
+								<div class="col-md-3 col-xs-3">
+									<div class="input-group">
+										<span class="input-group-addon">
+											<input type="radio" name="userSex" id="female" value=""> 
+										</span>
+										<label class= "form-control" for="female">Female</label>
 									</div><br>
-									<input type="submit" value="Create Account">
-								</form>
+								</div>
 							</div>
-						</div>
+							<div class="row">
+								<div class="col-md-6 col-xs-6">
+										<input type="submit" class="btn btn-primary center-block" value="Create Account">
+								</div>
+							</div>
+						</form>
 					</div>
 				</div>
 			</div>
@@ -86,7 +114,6 @@
 						<li class = "li-accBen">Electronically Donate to the church!</li>
 						<li class = "li-accBen">Keep up with all things All Saints!</li>
 					</ul>
-					<img src = "../images/FollowMe.jpg" height="200" width = "400">		
 				</div>
 			</div>
 		</div>

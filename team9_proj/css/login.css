@@ -1,25 +1,9 @@
-.container div-login {
-    text-align:center;
-}
-
-.container div-createAcc {
-    text-align:center;
-}
-
-.container login-intro-div {
-    text-align:center;
-}
-
 .header-3 {
 	text-align:center;
 }
 
 .p-intro {
 	text-align:center;
-}
-
-.container login-intro-div2 {
-    text-align:center;
 }
 
 .li-accBen {
@@ -34,3 +18,8 @@
 .div-directions {
     text-align:center;
 }
+.btn-primary {
+	width: 200px;
+	text-align: center;
+}
+	
