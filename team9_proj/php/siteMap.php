@@ -1,5 +1,4 @@
 <?php
-	session_start();
 	require_once('initialize.php');
 ?>
 
@@ -18,11 +17,11 @@
 	<body>
 		<?php 
 			include_once 'header.php';
-			$login = false;
-			if(!$login)
-				include_once 'navBarLogin.php'; 
+			$login = check_login();
+			if($login == true)
+				include_once 'navBarLogout.php'; 
 			else
-				include_once 'navBarLogout.php';
+				include_once 'navBarLogin.php';
 		?>
 		
 		<h3>Site Map for All Saints Lutheran Church:</h3>

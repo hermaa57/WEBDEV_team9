@@ -4,8 +4,8 @@
 	if($_SERVER['REQUEST_METHOD'] === 'POST')
 	{
 		global $db ;
-		$EM = $_POST['userEmail'] ;
-		$PW = $_POST['userPassword'] ;
+		$EM = $_POST['userEmail'];
+		$PW = $_POST['userPassword'];
 		try
 		{
 			$check = UserLoginVerify($EM, $PW);
@@ -14,8 +14,7 @@
 			{
 				if(count($check) == 1)
 				{
-					$_SESSION['username'] = $check['Name'][0];
-					$login = true;
+					$_SESSION['email'] = $EM;
 					header("Location: " . "index.php") ;
 				}
 				else

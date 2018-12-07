@@ -1,5 +1,4 @@
 <?php
-	session_start();
 	require_once('initialize.php');
 ?>
 
@@ -18,10 +17,11 @@
 	<body>
 		<?php 
 			include_once 'header.php';
-			if($login == null)
-				include_once 'navBarLogin.php'; 
+			$login = check_login();
+			if($login == true)
+				include_once 'navBarLogout.php'; 
 			else
-				include_once 'navBarLogout.php';
+				include_once 'navBarLogin.php';
 		?>
 		
 		<p class="p-intro"><img src = "../images/header.jpg"></p>

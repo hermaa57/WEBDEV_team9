@@ -1,13 +1,13 @@
 <?php 
-	session_start();
 	require_once('initialize.php');
-	$login = false;
 	
-	if(isset($_SESSION['username']))
+	if(isset($_SESSION['email']))
 	{ 
-		unset($_SESSION['username']);
+		unset($_SESSION['email']);
 		session_destroy();
 	}
+	
+	session_start();
 ?>
 <!DOCTYPE html>
 <html>

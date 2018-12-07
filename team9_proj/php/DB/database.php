@@ -1,5 +1,6 @@
 <?php
 	require_once("db_credentials.php");
+	session_start();
 	
 	function db_connect() 
 	{
@@ -18,5 +19,13 @@
 	{
 		global $db;
 		$db = null;
+	}
+	
+	function check_login()
+	{
+		if(isset($_SESSION['email']))
+			return true;
+		else
+			return false;
 	}
 ?>

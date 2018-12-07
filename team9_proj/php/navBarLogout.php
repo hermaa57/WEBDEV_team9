@@ -14,7 +14,6 @@
 						<li><a href="../php/ministries.php">Ministries</a></li>
 						<li><a href="../php/donate.php">Donate</a></li>
 						<li><a href="../php/siteMap.php">Site Map</a></li>
-						<li><a href="../php/profile.php">Your Profile</a></li>
 						<li><a href="../php/logout.php">Logout</a></li>
 					</ul>
 				</div>	
