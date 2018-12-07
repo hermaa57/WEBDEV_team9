@@ -4,10 +4,10 @@
 	if($_SERVER['REQUEST_METHOD'] === 'POST')
 	{
 		global $db ;
-		$UN = $_POST['userName'] ;
-		$PWD = $_POST['userPasswordCreate'] ;
-		$EM = $_POST['userEmailCreate'];
-		$DOB = $_POST['userDOB'];
+		$EM = $_POST['email'];
+		$PWD = $_POST['password'];
+		$UN = $_POST['username'];
+		$DOB = $_POST['dob'];
 
 		try
 		{
@@ -16,11 +16,11 @@
 			
 			if(count($checkEmail) > 0)
 			{
-				echo '<p>The email already exists. Please choose a different email.<p>';
+				echo '<div class="alert alert-danger" role="alert"><p>The email already exists. Please choose a different email.<p></div>';
 			}
 			else if(count($checkUsername) > 0)
 			{
-				echo '<p>The user name already exists. Please choose a different username.<p>';
+				echo '<div class="alert alert-danger" role="alert"><p>The user name already exists. Please choose a different username.<p></div>';
 			}
 			else
 			{
@@ -32,8 +32,8 @@
 				}
 				else
 				{
-					echo "There was an error creating your account.
-						Please try again.";
+					echo '<div class="alert alert-danger" role="alert">There was an error creating your account.
+						Please try again.</div>';
 				}
 			}
 

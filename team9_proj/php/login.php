@@ -62,36 +62,18 @@
 						<form method="post" action="createAccountDB.php">
 							<div class="row">
 								<div class="col-md-3 col-xs-3">
-									<input type="text" class="form-control" placeholder="Email:" name="userEmailCreate" value=""><br><br>
+									<input type="text" class="form-control" placeholder="Email:" name="email" value=""><br><br>
 								</div>
 								<div class="col-md-3 col-xs-3">
-									<input type="password" class="form-control" placeholder="Password:" name="userPasswordCreate" value=""><br><br>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-3 col-xs-3">
-										<input type="text" class="form-control" placeholder="Name: " name="userName" value=""><br><br>
-								</div>
-								<div class="col-md-3 col-xs-3">
-										<input type="text" class="form-control" placeholder="Date of Birth: " name="userDOB" value=""><br><br>
+									<input type="password" class="form-control" placeholder="Password:" name="password" value=""><br><br>
 								</div>
 							</div>
 							<div class="row">
 								<div class="col-md-3 col-xs-3">
-									<div class="input-group">
-										<span class="input-group-addon">
-											<input type="radio" name="userSex" id="male" value=""> 
-										</span>
-										<label class="form-control" for="male">Male</label>
-									</div>
+										<input type="text" class="form-control" placeholder="Name: " name="username" value=""><br><br>
 								</div>
 								<div class="col-md-3 col-xs-3">
-									<div class="input-group">
-										<span class="input-group-addon">
-											<input type="radio" name="userSex" id="female" value=""> 
-										</span>
-										<label class= "form-control" for="female">Female</label>
-									</div><br>
+										<input type="text" class="form-control" placeholder="Date of Birth: " name="dob" value=""><br><br>
 								</div>
 							</div>
 							<div class="row">
